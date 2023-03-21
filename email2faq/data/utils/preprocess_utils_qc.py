@@ -23,7 +23,7 @@ def email_preprocess(emails_df, email_field):
 
     # Split sentences and create new dataframe
     sentences = []
-    emails_df['content_clean'].apply(lambda x: split_sentence(x))
+    emails_df['content_clean'].apply(lambda x: sentences.extend(split_sentence(x)))
     sentences_df = pd.DataFrame(sentences)
     sentences_df.rename(columns = {0:"sentences"}, inplace = True)
     return sentences_df, sentences_df.columns[0]
@@ -77,6 +77,16 @@ def clean_email_column(data):
     return 'No Subject'
 
 def split_sentence(text):
-  sentences_list = re.split(r"[.;!?]", text)
+  sentences_list = re.split(r"[.;!?]\s+", text)
   return sentences_list
 
+#%%
+# import re
+# text = """Though Hertzberg was initially a supporter, his legal consultant has been 
+# scared off by the Gov's people (i.e., to de-link would ""impair"" the 
+# contracts, triggering breach, liquidated damages and the end of Western 
+# Civilization as we know it).  The Senate ain't buying that line."""
+# sentences_list = re.split(r"[.;!?]\s+", text)
+# print(sentences_list)
+
+# %%

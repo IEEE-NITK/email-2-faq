@@ -2,7 +2,7 @@
 import os
 import pandas as pd
 from torch.utils.data import Dataset
-from utils import email_preprocess
+from utils.preprocess_utils_qc import email_preprocess
 
 class EmailsDataset(Dataset):
     """
@@ -22,8 +22,8 @@ class EmailsDataset(Dataset):
         sentence = self.sentences[self.sentences_field][idx]
         return sentence
 #%%
-pd.read_csv("/home/ary2260/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
-#%%
-k = EmailsDataset("/home/ary2260/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
-# k.__getitem__(0)
+# pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
+# #%%
+# k = EmailsDataset("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
+# k.__getitem__(2)
 # %%
