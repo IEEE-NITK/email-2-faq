@@ -26,7 +26,7 @@ def email_preprocess(emails_df, email_field):
     emails_df['content_clean'].apply(lambda x: split_sentence(x))
     sentences_df = pd.DataFrame(sentences)
     sentences_df.rename(columns = {0:"sentences"}, inplace = True)
-    return sentences_df
+    return sentences_df, sentences_df.columns[0]
 
 
 def get_text_from_email(msg):
