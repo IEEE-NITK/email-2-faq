@@ -4,7 +4,6 @@
   "do_lower_case": true,
   "mask_token": "[MASK]",
   "model_max_length": 1000000000000000019884624838656,
-  "name_or_path": "shahrukhx01/question-vs-statement-classifier",
   "never_split": null,
   "pad_token": "[PAD]",
   "sep_token": "[SEP]",
