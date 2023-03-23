@@ -1,0 +1,841 @@
+
+
+What is the restaurant's most popular dish?
+
+1. What kind of cuisine does the restaurant specialize in?
+2. Can you recommend a dish that's perfect for vegetarians?
+3. What kinds of drinks do you offer, and are there any house cocktails?
+4. Is there a separate menu for gluten-free or dairy-free options?
+5. What times does the kitchen close, and is there a late-night menu available?
+6. Do you have any specials or promotions running?
+7. Could you tell me more about the local ingredients used in your dishes?
+8. Do you offer any happy hour deals on drinks or food?
+9. Are there any dishes on the menu that are unique to this location?
+10. Can you recommend any desserts or after-dinner drinks?
+
+Are there vegetarian/vegan options available?
+
+1. Do you have any gluten-free options on your menu?
+2. Are your soups made with vegetarian stock?
+3. Can you substitute the meat in this dish for a vegetarian protein?
+4. Is there dairy in any of your sauces or dressings?
+5. Are your fries cooked in a separate fryer from any meat products?
+6. Are any of your beverages made with animal products, like milk or honey?
+7. Do you have any vegan desserts available?
+8. Are your salads customizable for dietary restrictions?
+9. Can you recommend a vegetarian entree that's a customer favorite?
+10. Are your garnishes, like croutons or bacon bits, listed as vegetarian-friendly?
+
+Does the restaurant offer gluten-free options?
+
+1. Are there any vegetarian options on the menu?
+2. Can you accommodate my food allergies?
+3. Does the bar serve non-alcoholic beverages?
+4. Are there any halal or kosher options available?
+5. Can I modify a dish to fit my dietary restrictions?
+6. Do you have any low-calorie options on the menu?
+7. Are there any dishes that contain peanuts or other nuts?
+8. Can I see a list of ingredients in a specific dish?
+9. Is the restaurant able to cater to guests with celiac disease?
+10. Do you have any vegan menu options available?
+
+Can the menu be customized according to dietary restrictions?
+
+1. Do you have any vegetarian options on the menu?
+2. Can you accommodate gluten-free requests?
+3. Are any of your dishes spicy or particularly mild?
+4. Can you adjust the salt levels in your dishes for health concerns?
+5. Do you offer any low-fat or low-calorie dishes?
+6. Are there any nuts or shellfish used in your recipes? 
+7. Can you prepare any dishes without dairy products for lactose-intolerant individuals? 
+8. Do you offer any vegan options on your menu? 
+9. Can you indicate if any dishes have been prepared with pork or other non-halal ingredients? 
+10. Would it be possible to have a dish prepared without any garlic or onions due to dietary restrictions?
+
+What is the restaurant's dress code?
+
+1. Is there a minimum age requirement to enter the restaurant/bar?
+2. Are reservations required to dine at the restaurant?
+3. Can I bring my own alcohol to the restaurant or bar?
+4. Is the menu available online or do I need to request a physical copy?
+5. Does the restaurant/bar offer any vegetarian or gluten-free options?
+6. Is there a specific time when happy hour starts and ends?
+7. Are there any specials or promotions currently available at the restaurant/bar?
+8. Is there a corkage fee if I bring my own wine to the restaurant?
+9. What types of payment methods are accepted at the restaurant/bar?
+10. Does the restaurant/bar have a private dining room available for events?
+
+Is there a kids' menu available?
+
+1. Do you have any vegetarian options on the menu?
+2. Can I customize my order or make substitutions?
+3. What type of drinks do you offer?
+4. Is there a happy hour or any discounts during certain times?
+5. Do you have a gluten-free menu or options?
+6. Can I make a reservation for a large group?
+7. What are the hours of operation?
+8. Do you offer delivery or takeout options?
+9. Are there any daily specials or promotions going on?
+10. Can I see the nutritional information for certain dishes?
+
+What is the seating capacity of the restaurant?
+
+1. Can I make a reservation for a large group?
+2. Do you have high chairs for children?
+3. Is there a specific dress code for the restaurant?
+4. How many tables are available for walk-in guests?
+5. Are there any private dining areas available for events?
+6. Do you have outdoor seating options?
+7. Are there any vegan or gluten-free menu options available?
+8. Can we bring our own cake for a birthday celebration?
+9. Is there live music or entertainment offered?
+10. Is there a happy hour or drink specials menu?
+
+Are reservations required?
+
+1. Do you accept walk-ins?
+2. How long is the wait time for a table?
+3. Can I request a specific table or seating area?
+4. Do you have a private dining room?
+5. Is there a minimum spend for a table reservation?
+6. Do you offer group reservations or party packages?
+7. Can I make a reservation for a large party or event?
+8. What is the cancellation policy for reservations?
+9. Do you offer any special discounts or promotions for reservations?
+10. Is there a dress code for the restaurant or bar?
+
+How far in advance should reservations be made?
+
+1. Can I make reservations for a large party?
+2. What is the earliest I can make a reservation for this weekend?
+3. Is there a deadline for cancelling a reservation?
+4. How long is the typical wait time for walk-in customers?
+5. Do you have a private dining room available for small groups?
+6. Can you accommodate dietary restrictions for reservations?
+7. How far out do you typically book reservations for special events or holidays?
+8. Do you require a deposit for reservations?
+9. Can I request specific seating or table arrangements for my reservation?
+10. What is the policy for late arrivals or no-shows for reservations?
+
+What is the restaurant's cancellation policy for reservations?
+
+1. What is the restaurant's policy on large groups or parties?
+2. How far in advance do I need to make a reservation?
+3. What is the dress code for the restaurant?
+4. Can I bring my own wine or alcohol to the restaurant?
+5. Does the restaurant offer outdoor seating or patio options?
+6. Can the restaurant accommodate dietary restrictions or allergies?
+7. Is there a minimum spend requirement for large groups or events?
+8. How long can I expect to wait for a table if I don't have a reservation?
+9. Does the restaurant offer any specials or promotions for certain days or times?
+10. What are the restaurant's hours of operation and do they offer takeout or delivery options?
+
+Is there a waiting list for reservations?
+
+1. How long is the wait for a table?
+2. Do you have any available tables at the moment?
+3. Can I make a reservation for a later time?
+4. How many people can be accommodated in your restaurant?
+5. Is it possible to have a table near the window or with a good view?
+6. Do you offer any specials or promotions for food or drinks?
+7. What is the dress code for your restaurant/bar?
+8. Can I request a private dining area or space for a special event?
+9. Do you have any dietary restrictions or menu items suitable for certain allergies?
+10. Can I split the check between multiple people or pay separately?
+
+Does the restaurant offer outdoor seating?
+
+1. Is there a happy hour specials menu available?
+2. Do you offer vegan or gluten-free options on your menu?
+3. Is there a dress code for dining in the restaurant?
+4. Are reservations necessary, or is walk-in seating available?
+5. What types of cocktails or specialty drinks does the bar offer?
+6. Is there a private event space available for rental?
+7. Does the restaurant offer live music or entertainment on any nights?
+8. Do you have high chairs or booster seats available for children?
+9. Does the restaurant offer catering services for off-site events?
+10. Are there any specials or promotions currently being offered?
+
+Are there any private dining rooms available for events?
+
+1. Can the restaurant accommodate large groups for private events?
+2. Is there a separate room or area for private parties?
+3. Do you offer catering services for off-site events?
+4. Can the menu be customized for private events?
+5. How early do we need to book a private dining room?
+6. Is there a minimum spend for private events?
+7. Can we bring our own decorations for a private event?
+8. Are audio-visual services available for presentations during private events?
+9. Can we have a set menu for our private event?
+10. What is the maximum capacity for a private dining room?
+
+What are the restaurant's operating hours?
+
+1. What types of cuisine do you offer at the restaurant?
+2. Can I make a reservation ahead of time?
+3. Is there a dress code for dining at the restaurant?
+4. Do you offer any vegetarian or vegan options on your menu?
+5. Are there any specials or promotions currently offered at the restaurant?
+6. What is the average price range for entrees on the menu?
+7. Do you offer private dining or event space for large groups?
+8. Is there a corkage fee if I bring my own wine to the restaurant?
+9. Can you accommodate food allergies or dietary restrictions?
+10. What is the parking situation like at the restaurant?
+
+Does the restaurant offer brunch or lunch specials?
+
+1. What is the restaurant’s specialty dish?
+2. Is there an option for vegetarian or vegan meals?
+3. Does the restaurant have a happy hour or drink specials?
+4. Is there outdoor seating available?
+5. What kind of music is played in the restaurant/bar?
+6. Can I make a reservation for a large group?
+7. What are the hours of operation?
+8. Is the parking area secure or is there a valet parking?
+9. Do you serve gluten-free options?
+10. Are there any private event spaces for rent in the restaurant/bar?
+
+Is there a bar at the restaurant?
+
+1. Does this restaurant serve alcohol?
+2. Can I order drinks at the table?
+3. Is there a separate area for the bar?
+4. Can I see a drink menu, please?
+5. Are there any specials or discounts on drinks tonight?
+6. Does the restaurant offer any signature cocktails?
+7. Is there a happy hour or any drink specials during the week?
+8. Are there any restrictions on who can enter the bar area?
+9. Is there a dress code for the bar or restaurant area?
+10. Can I bring my own wine or beer to the restaurant?
+
+What types of cocktails are on the menu?
+
+1. What are the specials tonight?
+2. Can you recommend a signature drink?
+3. Is there a happy hour menu?
+4. Do you have any non-alcoholic drinks on the menu?
+5. Are there any seasonal cocktails available?
+6. Can I see a full list of the beers on tap?
+7. Do you offer any food pairing suggestions with the cocktails?
+8. Is there a wine list available?
+9. What's the most popular cocktail you serve?
+10. Can I customize a cocktail to my liking?
+
+Are there any signature cocktails?
+
+1. Can you recommend any specialty drinks?
+2. Do you have any unique cocktails for a first-time visitor?
+3. What's the house specialty cocktail?
+4. Are there any exclusive drinks that are only available here?
+5. What's the most popular cocktail on the menu?
+6. Can you create a custom cocktail for me?
+7. Are the cocktails made with fresh ingredients?
+8. Do you have any innovative cocktails that I should try?
+9. What type of cocktails do you have? 
+10. Are there any must-try drinks on the menu?
+
+Is there a happy hour at the restaurant?
+
+1. Do you offer any drink specials during the week?
+2. Are there any discounts available for large groups?
+3. Are there any food specials during certain times of the day?
+4. Do you have any promotions for game days or events?
+5. Is there a loyalty program for frequent customers?
+6. Are there any specials for takeout orders?
+7. Do you offer any specials for holidays?
+8. Are there any discounts for seniors or military personnel?
+9. Is there a daily special menu available?
+10. Do you offer any specials for happy hour on weekends?
+
+What types of wine are on the menu?
+
+1. What are your popular drink options?
+2. Can you recommend some good cocktails?
+3. Are there any local beers on your menu?
+4. Do you have any red wine options that pair well with steak?
+5. What kind of spirits do you offer?
+6. How about non-alcoholic beverage options?
+7. Is there a happy hour deal or special promotion available?
+8. Could you suggest any vegetarian appetizers to pair with my drink choice?
+9. Are there any gluten-free options on your drink menu?
+10. Do you offer any whiskey flights or tastings?
+
+Can customers bring their own wine?
+
+1. Can customers bring their own beer or other alcohol?
+2. Are there any corkage fees for bringing our own wine?
+3. Is there a limit to the amount of alcohol that customers can bring in?
+4. Are there any restrictions on the type of alcohol customers can bring in?
+5. Do you offer a wine list, or can we only bring our own?
+6. Are there any policies regarding the age of the alcohol customers bring in?
+7. Are there any restrictions on the containers customers can use to bring in their alcohol?
+8. Is there a limit to the number of bottles customers can bring in?
+9. Is there any storage available for customers' wine or other alcoholic beverages?
+10. Can we bring our own non-alcoholic beverages, such as sodas or juice?
+
+Is there a corkage fee for bringing your own wine?
+
+1. Do you have any vegetarian or vegan options on the menu?
+2. Can I request modifications to a dish, such as removing or adding certain ingredients?
+3. Is there a dress code for the restaurant?
+4. Do you offer a happy hour or any specials on drinks or appetizers?
+5. Are there any gluten-free options available?
+6. Can you accommodate large groups or private events?
+7. Do you offer a children's menu or high chairs for young children?
+8. Can I bring my own dessert for a special occasion?
+9. Is there valet parking or a nearby parking lot available?
+10. Are there any outdoor or patio seating options available?
+
+Does the restaurant offer takeout or delivery?
+
+1. Do you have a vegetarian/vegan menu?
+2. Can I make reservations for a group of 10 people?
+3. Do you offer any gluten-free options on your menu?
+4. What is your happy hour schedule?
+5. Are pets allowed in the outdoor seating area?
+6. Is the establishment family-friendly or more adult-oriented?
+7. Do you have any private rooms or event spaces that are available for rent?
+8. Can I view the menu online before I come in?
+9. What kind of dress code is appropriate for the establishment?
+10. Is the restaurant wheelchair accessible?
+
+Is there a delivery fee?
+
+1) Do you offer takeout options?
+2) Can I order food online for pickup or delivery?
+3) How long does it take for a delivery to arrive?
+4) Is there a minimum order amount for delivery?
+5) Do you have any discounts or promotions for delivery orders?
+6) Can I track my delivery status online?
+7) What is your delivery radius?
+8) Are your delivery hours different from your restaurant hours?
+9) Do you use third-party delivery services?
+10) How do I pay for my delivery order?
+
+What areas does the restaurant deliver to?
+
+1. What are the restaurant's hours of operation?
+2. Does the bar offer happy hour specials?
+3. Can you accommodate a large group reservation?
+4. What is the dress code for the restaurant?
+5. Are pets allowed on the patio area?
+6. Is there an outdoor seating area?
+7. Are there any gluten-free or vegetarian menu options available?
+8. Can you provide a private dining room for a special occasion?
+9. What types of payment are accepted at the restaurant?
+10. Do you have any signature cocktails or dishes that are highly recommended?
+
+Does the restaurant cater events?
+
+1. Does the restaurant have a private party room?
+2. Can I make a reservation for a large group?
+3. Is there a separate menu for catering events?
+4. How many people can be accommodated for a private event?
+5. Can the restaurant provide music and entertainment for events?
+6. Are there custom menu options available for catering events?
+7. Can the restaurant provide decorations for private events?
+8. Is there a minimum spend requirement for private events?
+9. Are there any restrictions on bringing outside food or drinks for events?
+10. Does the restaurant offer discounts for large group bookings?
+
+What is the minimum order for catering?
+
+1. How much advance notice do you need for catering orders? 
+2. What is the maximum number of guests that you can cater for? 
+3. What is the pricing for catering services? 
+4. Do you offer any discounts for bulk catering orders? 
+5. Can you customize the catering menu according to our preferences? 
+6. Do you provide delivery and setup services for catering orders? 
+7. Is there a minimum or maximum distance limit for catering deliveries? 
+8. How do you handle special dietary restrictions for catering orders? 
+9. Do you offer any options for last-minute catering orders? 
+10. What is the cancellation policy for catering orders?
+
+Is there a catering menu available?
+
+1. Can I see the drink menu, please?
+2. Are there any specials available tonight?
+3. What are the vegetarian options on the menu?
+4. Can I make a reservation for a party of 10?
+5. What time does the kitchen close?
+6. Do you have a children's menu available?
+7. Can you accommodate gluten-free or other dietary restrictions?
+8. Is there outdoor seating available?
+9. Can I order takeout from this restaurant?
+10. Can I see a wine list or pairing recommendations for my meal?
+
+Can the catering menu be customized?
+
+1. Is it possible to request vegan or vegetarian options on the menu?
+2. Can you accommodate any food allergies or dietary restrictions?
+3. Can I make substitutions to my meal if certain ingredients don't appeal to me?
+4. Can you provide a gluten-free version of certain menu items?
+5. Is there a children's menu available, and can it be modified at all?
+6. Can I order a dish to be cooked to my preferred level of spiciness?
+7. Are there any low-carb options available on the menu?
+8. Can you customize the toppings on my pizza or burger?
+9. Can I request a certain type of fish or cut of meat for my entrée?
+10. Can you prepare a dish not listed on the menu if I request it?
+
+What is the pricing for catering?
+
+1. Can I see the menu prices for your dishes and beverages?
+2. Are there any specials or promotions on food and drinks?
+3. Do you offer any discounts for large groups or events?
+4. Can you provide me with a breakdown of the price for each dish or drink?
+5. Is there a minimum spend requirement for booking a table or private event space?
+6. Are there any additional charges for services such as delivery or set-up?
+7. How do your prices compare to similar restaurants or bars in the area?
+8. Is there a corkage fee if I bring my own bottle of wine?
+9. Do you have a happy hour menu with discounted prices?
+10. Are there any surcharges or taxes added to the final bill?
+
+Does the restaurant offer gift cards?
+
+1. Do you offer any special discounts or happy hour deals?
+2. Is your menu available for take-out or delivery?
+3. Are there any vegetarian or gluten-free options on the menu?
+4. Do you have a private room or section for large parties or events?
+5. What types of payment do you accept? 
+6. Can you accommodate special dietary restrictions or allergies? 
+7. Is there live music or entertainment on certain nights? 
+8. Do you have a loyalty or rewards program for frequent customers? 
+9. Can I make a reservation in advance? 
+10. What are your hours of operation?
+
+Is there a minimum purchase amount for gift cards?
+
+1. What is the maximum amount I can load onto a gift card?
+2. Can I use my gift card for both food and drinks?
+3. How long is my gift card valid for?
+4. Can I use my gift card for takeout orders?
+5. Is there a limit to how many gift cards I can use on one purchase?
+6. Can I use my gift card to pay for gratuity?
+7. Will my gift card be refunded if the restaurant/bar closes permanently?
+8. Can I purchase a gift card online or only in-person?
+9. Can I reload my gift card with additional funds?
+10. Is there an expiration date for the gift card promotion currently advertised?
+
+Can gift cards be purchased online?
+
+1. What is the happy hour schedule at this establishment?
+2. Do you offer any discounts or promotions for group reservations?
+3. Can I make a reservation online or must it be done over the phone?
+4. What is the dress code for this restaurant / bar?
+5. Is there a minimum age requirement for entry or for ordering drinks?
+6. Do you offer any vegetarian or gluten-free options on the menu?
+7. Can I place a take-out order by phone or online?
+8. Are there any private dining rooms or event spaces available for rent?
+9. Do you offer any special events or live entertainment on certain nights?
+10. What are the hours of operation for this restaurant / bar?
+
+How can gift cards be redeemed?
+
+
+1. Is there a limit on how many gift cards I can use per visit? 
+2. Can I use my gift card to purchase alcohol? 
+3. Do gift cards expire, and if so, when? 
+4. Can I check the balance of my gift card online? 
+5. Can I use my gift card to pay for delivery or takeout orders? 
+6. Can I combine my gift card with other forms of payment, such as cash or credit card? 
+7. Can I purchase a gift card online, or do I have to purchase it in person? 
+8. Are there any restrictions on what menu items I can use my gift card for? 
+9. Can I reload or add more funds to an existing gift card? 
+10. Can I use my gift card for catering or large group orders?
+
+Does the restaurant offer any loyalty or rewards programs?
+
+1. Is there a happy hour or any drink specials available?
+2. Do you offer any discounts for large groups or parties?
+3. Is there a loyalty program for frequent customers or members?
+4. Are there any daily or weekly specials available?
+5. Are there any promotions or events happening at the restaurant/bar currently?
+6. Is there a rewards system for leaving reviews or referring friends?
+7. Do you offer any deals or freebies for birthdays or special occasions?
+8. Is there a points system for collecting rewards or discounts?
+9. Are there any membership perks for signing up with the restaurant?
+10. Do you offer any discounts for military, senior citizens, or other special groups?
+
+Is there a sign-up fee for the loyalty program?
+
+1. Do you offer any discounts for frequent customers?
+2. How do I join the loyalty program?
+3. What benefits do I get from the loyalty program?
+4. Can I use my loyalty points towards my bill?
+5. Is there a minimum spend required to earn loyalty points?
+6. Can I still earn loyalty points if I pay with a gift card?
+7. How do I check my loyalty points balance?
+8. Can I earn loyalty points on takeout or delivery orders?
+9. Are there any restrictions on using the loyalty points?
+10. How long are my loyalty points valid for?
+
+How do customers earn points for the loyalty program?
+
+1. What are the benefits of being a part of the loyalty program?
+2. How can I sign up for the loyalty program at this restaurant/bar?
+3. Are there any special rewards or perks for frequent customers?
+4. How can I track my loyalty points and rewards?
+5. Are there any restrictions on how I can redeem my loyalty points?
+6. How long does it take to receive my loyalty rewards after redeeming my points?
+7. Are there any extra benefits for loyal customers such as freebies or discounts?
+8. Can loyalty points be transferred or gifted to someone else?
+9. What is the expiration date for the loyalty points?
+10. Are there any loyalty tiers or levels that offer additional rewards or benefits?
+
+What are the rewards for the loyalty program?
+
+1. What benefits do I get from being a regular customer here?
+2. How do I qualify for the loyalty program?
+3. What discounts or savings can I expect as a member of the loyalty program?
+4. Are there any exclusive promotions or events for loyalty program members?
+5. Can loyalty points be redeemed for anything other than discounts?
+6. How long does it take to accumulate points in the loyalty program?
+7. Will my loyalty points expire or carry over to the next year?
+8. Is there a limit to how many loyalty points I can earn per visit or per day?
+9. How do I track my loyalty points and rewards?
+10. Is there a fee to join the loyalty program?
+
+How can customers redeem their loyalty points?
+
+1. What benefits do customers receive from being part of the loyalty program?
+2. How do customers earn loyalty points?
+3. Is there any expiration date for the loyalty points?
+4. How can customers check their loyalty point balance?
+5. Can customers use their loyalty points to pay for part of their bill?
+6. What happens if customers forget to show their loyalty card or number at checkout?
+7. Is there any limit on the number of loyalty points customers can earn or redeem?
+8. Can customers transfer their loyalty points to someone else?
+9. Are there any special promotions or discounts for loyalty program members?
+10. How does the restaurant/bar keep track of customers' loyalty points?
+
+Does the restaurant offer any discounts for seniors or military personnel?
+
+1. Is there a happy hour special available?
+2. Does the restaurant have any special promotions for birthday parties or other celebrations?
+3. Can I get a discount if I order takeout?
+4. Are there any specials available for large groups or parties?
+5. Is there a loyalty program or rewards card I can sign up for?
+6. Are there any early bird dinner specials offered?
+7. Do you offer any discounts for college students or faculty?
+8. Are there any holiday specials or promotions coming up?
+9. Is there a special menu for children?
+10. Do you offer any discounts for local residents?
+
+Is there a dress code for the restaurant's bar area?
+
+1. Are reservations required for the bar area?
+2. Can I bring my own drinks to the restaurant's bar area?
+3. Is smoking allowed in the restaurant's bar area?
+4. Do you offer any happy hour specials in the bar area?
+5. Are children allowed in the restaurant's bar area?
+6. Do you have any gluten-free options available in the bar area?
+7. Is there a minimum order requirement for the bar area?
+8. Are pets allowed in the restaurant's bar area?
+9. Is there outdoor seating available in the bar area?
+10. Are there any restrictions on the number of people allowed in the bar area?
+
+What types of appetizers are on the menu?
+
+1. What are the most popular appetizers on the menu?
+2. Can you recommend any vegetarian appetizers?
+3. Are there any gluten-free appetizers on the menu?
+4. Do you offer any seafood appetizers?
+5. What kind of dips or sauces come with the appetizers?
+6. How spicy are the appetizers on the menu?
+7. Can some of the appetizers be made into a meal?
+8. Do you offer any unique or signature appetizers?
+9. How many appetizers are typically served per person?
+10. Are the appetizers made fresh in-house or are they pre-made?
+
+What types of entrees are on the menu?
+
+1. Can you recommend any specials or popular dishes?
+2. Is there a vegetarian or gluten-free menu available?
+3. Are there any seafood options on the menu?
+4. Do you have any signature cocktails or drinks?
+5. Can you tell me about the ingredients used in a certain dish?
+6. How spicy is this dish on a scale of 1 to 10?
+7. What are the portion sizes of the dishes on the menu?
+8. Are there any appetizers or small plates available?
+9. Can you tell me about the origin of a particular dessert on the menu?
+10. Do you have any deals or discounts available for larger groups or special occasions?
+
+Are there any seasonal specials on the menu?
+
+1. "Do you have any new menu items that have been added recently?"
+2. "What dishes do you recommend for the season?"
+3. "Are there any discounts or promotions available tonight?"
+4. "Can you recommend a particular dish that pairs well with my drink?"
+5. "What are the ingredients in this particular dish?"
+6. "Is there a vegetarian or vegan option available?"
+7. "Do you have any gluten-free options on the menu?"
+8. "Can you tell me about the specials of the day?"
+9. "What desserts do you have on the menu?"
+10. "Are there any local or regional specialties on the menu?"
+
+Can the restaurant accommodate large groups?
+
+1. Is the restaurant able to reserve tables for large groups?
+2. What is the maximum number of people the restaurant can accommodate at one time?
+3. Can the restaurant provide a private room for large groups?
+4. Does the restaurant have any special menu options for large groups?
+5. Can the restaurant provide a set menu for large groups?
+6. What is the policy for splitting the bill for large groups?
+7. Is there a minimum order requirement for large groups?
+8. Can the restaurant accommodate dietary restrictions for large groups?
+9. Are there any discounts or special offers for large groups?
+10. How far in advance does the restaurant require a booking for large groups?
+
+Is there a group dining menu available?
+
+1. Do you offer any special deals for large groups? 
+2. Can you accommodate a party of 10 people or more? 
+3. Is there a private event space available for rent? 
+4. Can we customize our own menu for a group event? 
+5. Are there any restrictions on what we can order for a group? 
+6. How much advance notice do you need for a large group reservation? 
+7. Are there any discounts for children or seniors in a group? 
+8. Do you offer any catering services for off-site events? 
+9. Are there any vegetarian or gluten-free options available for group dining? 
+10. Can we bring our own decorations for a group event?
+
+What is the pricing for group dining?
+
+1. Is there a separate menu for large groups?
+2. Do you offer discounts for group dining?
+3. What is the minimum number of people required for group dining?
+4. Can we bring our own food for a group event?
+5. Do you offer private dining rooms for groups?
+6. Are there any special promotions or offers for group dining?
+7. Can we pre-order our meals for a group event?
+8. Are gratuities included in the group dining pricing?
+9. Can we split the bill for a group event?
+10. How far in advance do we need to book for group dining?
+
+Does the restaurant offer any entertainment, such as live music or karaoke?
+
+1. Are there any special events happening in the restaurant/bar tonight?
+2. What kind of music does the restaurant/bar play?
+3. Is there any dancing allowed in the restaurant/bar?
+4. Do you provide any party packages or event planning services?
+5. Can we reserve a private section of the restaurant/bar for a special occasion?
+6. Are there any games, such as pool or darts, available to play at the restaurant/bar?
+7. Do you have any TV screens showing sports or other programs in the restaurant/bar?
+8. Is there a dress code for the restaurant/bar?
+9. Do you offer any specialty cocktails or drinks unique to the restaurant/bar?
+10. Can we bring our own live entertainment, such as a band or DJ, to perform in the restaurant/bar?
+
+Is there a corkage fee for bringing your own wine to a private event?
+
+1. Do you have any specials or promotions currently available?
+2. Can you accommodate dietary restrictions such as gluten-free or vegan options?
+3. What is the dress code for your establishment?
+4. Do you take reservations or is it first-come, first-served?
+5. Can we request a table in a specific location or section of the restaurant?
+6. Are there any happy hour or drink specials available?
+7. What types of payment do you accept (cash, credit card, etc.)?
+8. Can you provide recommendations for dishes or drinks on the menu?
+9. Is there a minimum age requirement for patrons in the restaurant or bar?
+10. Are there any private event spaces available for booking or rental?
+
+Does the restaurant have any partnerships or affiliations with other businesses or organizations?
+
+1. Are there any promotions or discounts available for frequent customers?
+
+2. Can menu items be customized to cater to my dietary needs?
+
+3. Do you offer delivery services for orders placed through your website or app?
+
+4. Are there any private rooms or areas available for hosting events or parties?
+
+5. Is the restaurant child-friendly and do you offer any special dishes for kids?
+
+6. What are the hours of operation and is the restaurant open during holidays?
+
+7. Do you have a loyalty program for repeat customers?
+
+8. Is the restaurant pet-friendly and are there any arrangements made for pets?
+
+9. Are there any live music or entertainment events hosted at the restaurant/bar?
+
+10. Can you recommend any popular dishes or drinks from the menu?
+
+Can you show me some examples of your previous work?
+
+1. Can you provide me with references from your past clients?
+2. Can you give me a breakdown of your design process?
+3. Can you explain how you select materials for your projects?
+4. Can you elaborate on your project management approach?
+5. Can you tell me about the certifications you hold as an interior decorator?
+6. Can you show me examples of different styles you're proficient in?
+7. Can you explain how you manage budgets for your projects?
+8. Can you walk me through how you source unique design pieces?
+9. Can you speak to your experience designing for small apartments?
+10. Can you describe how you incorporate client preferences into your designs?
+
+What type of materials do you use in your designs?
+
+1. How do you decide which color schemes to use in your designs? 
+2. Can you recommend some eco-friendly or sustainable furniture options in your designs? 
+3. What kind of textures do you incorporate in your designs? 
+4. Will you provide a comprehensive design plan before starting the project? 
+5. How do you prioritize functionality while designing? 
+6. Can you suggest some exclusive décor pieces to enhance the ambiance of my space? 
+7. What measures do you take to keep up with current trends in interior design? 
+8. How do you balance design aesthetics and affordability? 
+9. What kind of lighting solutions do you incorporate in your designs? 
+10. Will you be responsible for procuring all materials and furnishings for the project?
+
+Can you work with a specific budget?
+
+1. How can you help me stick to my budget?
+2. Are your services customizable to fit my budget?
+3. Is there a way to cut costs without compromising the quality of your work?
+4. Can you recommend cost-effective design options?
+5. How much does your average project cost?
+6. What payment methods do you accept?
+7. What happens if my budget changes during the project?
+8. Can you provide me with a breakdown of the cost for each service that I request?
+9. Do you offer discounts for larger projects?
+10. Can you suggest ways to save money while still achieving my desired results?
+
+How do you determine the cost of a project?
+
+1. What are the factors that influence the cost of an interior decoration project?
+2. Can you provide an estimate of the cost of my specific project?
+3. Are your prices based on per square foot or per room basis?
+4. How do you calculate the cost of materials used in a project?
+5. Do you include labour and installation costs in your project quotes?
+6. How do you handle changes in design or scope during the project, and how will these impact the overall cost?
+7. Do you offer any financing or payment plans for your services?
+8. How do your prices compare to other interior decoration companies in the area?
+9. Can you provide me with a breakdown of costs for different design options?
+10. What happens if the project overshoots the allocated budget, and how is this handled?
+
+How long does a typical project take from start to finish?
+
+1. What is the estimated timeline for completing a living room redesign project?
+2. How long does it usually take to complete a kitchen renovation project?
+3. What is the average duration of a bedroom interior design project?
+4. Can you provide an approximate timeline for an office space redesign project?
+5. How much time do you need to complete a full home interior design project?
+6. What is the expected project timeline for a bathroom renovation project?
+7. Could you give me an idea of how many weeks or months it takes to complete a dining area decor project?
+8. What is the typical time frame for a basement renovation project?
+9. Can you provide an estimated time for completing a commercial interior design project?
+10. How long does it usually take to complete a minimalistic decor project for a small apartment?
+
+Do you offer a warranty on your work?
+
+1. What services do you offer in interior decoration?
+2. How much experience do you have in the industry?
+3. Can you provide references from previous customers?
+4. Do you offer customized designs to suit my preferences?
+5. Can you provide a detailed cost estimate for the project?
+6. What kind of payment options do you have?
+7. Can you provide a timeline for completion of the project?
+8. What kind of materials and products do you use?
+9. Do you offer installation services for purchased items?
+10. How do you handle unexpected issues that arise during the project?
+
+How do you handle changes to the design during the project?
+
+1. How do you manage the budget for a project if we decide to add or remove certain items from the design?
+2. What is your policy regarding changes to the project timeline caused by design modifications?
+3. Can you provide examples of how you have accommodated changes in the past, and what was the process like?
+4. If we don't like the final outcome of a particular aspect of the design, how can we request a change or modification?
+5. What happens if the final predetermined colours of the interior design don't work out as we planned?
+6. If we have an idea for a design element that wasn't discussed during the initial consultation, how can we bring it up now?
+7. How do you handle changes to the project if we decide to use a different colour scheme than what was initially selected?
+8. Can we modify the design if certain parts are implemented into the project earlier or later than expected?
+9. If the work is already in progress, how do you account for changes in the existing space?
+10. Can you provide an example of a change that you had to make mid-project, and how you managed it without affecting the overall design?
+
+Can you work with a specific design style or theme?
+
+1. Do you have experience working with modern interior design?
+2. Can you create a rustic-themed living space?
+3. Will you be able to design a minimalistic bedroom for me?
+4. Are you familiar with bohemian interior design?
+5. Can you work with a beach-inspired design for my home?
+6. Will you be able to design a traditional-themed dining room?
+7. Do you have experience working with industrial interior design?
+8. Can you create a vintage-inspired workspace for me?
+9. Are you familiar with Victorian-era interior design?
+10. Can you work with a retro-style theme for my home?
+
+Do you provide project management services?
+
+1. Do you handle the procurement of all materials required for the project? 
+2. Can you work with an existing design plan or create one for us? 
+3. How do you handle communication between the client, designer, and contractors? 
+4. Can you provide a detailed timeline for the project? 
+5. How do you handle budgeting and cost control for the project? 
+6. Do you have experience working with different styles and preferences of clients? 
+7. Do you offer any warranties or guarantees for your work? 
+8. How do you handle unexpected complications or changes in the project plan? 
+9. Can you provide references or examples of past project management experiences? 
+10. What is your process for ensuring the project stays on track and on budget?
+
+Can you help with choosing furniture and accessories?
+
+1. I am looking to revamp my living room. Can you assist me in choosing furniture and accessories that would match my taste?
+2. Can you suggest some design ideas for my bedroom and help me with selecting the right furniture and accessories to complete the look?
+3. I want to design my home office in a modern and minimalist style. Can you help me with product recommendations and purchasing options?
+4. Do you have any experience in choosing outdoor furniture and accessories? Can you help me create an inspiring and comfortable outdoor space?
+5. I need help picking out lighting fixtures for my home. Can you provide suggestions that fit within my budget and style preferences?
+6. Can you offer guidance on choosing curtains and blinds for my windows? I want to create a cohesive look throughout my home.
+7. I have a small apartment and need help maximizing storage space while still keeping it stylish. Can you assist me with choosing multifunctional furniture and accessories?
+8. I am moving into a new home and want to create a cohesive aesthetic throughout all the rooms. Can you help me with choosing furniture and accessories that match my personal style?
+9. Can you provide advice on how to mix and match patterns and colors in my home décor? I want to create an eclectic and unique look.
+10. I am on a tight budget but still want to update the décor in my home. Can you help me find affordable furniture and accessories that fit my style?
+
+How do you ensure that the design reflects the client's personality and preferences?
+
+1. How do you determine the client's style before starting the project?
+2. Do you take into consideration the existing décor and furniture of the client's space?
+3. Can you provide examples of how you incorporate unique features based on the client's preferences?
+4. How do you ensure the color scheme aligns with the client's taste?
+5. Do you involve the client in the design process or make the decisions independently?
+6. What steps do you take to ensure the design matches the client's lifestyle?
+7. How do you incorporate personal belongings into the design to reflect the client's personality?
+8. Can you show us how you tailor room layouts to fit the client's specific needs?
+9. Do you consider the client's budget when designing their space?
+10. What is your process for maintaining communication with the client throughout the project?
+
+Do you offer eco-friendly or sustainable design options?1. Do you source your materials from sustainable and environmentally responsible suppliers?
+2. Are energy-efficient products and solutions available as part of your design offerings?
+3. Can you recommend products and materials that are environmentally friendly and sustainable?
+4. Do you incorporate sustainable practices into your design process, such as reducing waste and conserving resources?
+5. Are you able to design spaces that are adaptable and flexible for changing needs, which can reduce the need for frequent redesigns and waste?
+6. Do you have experience designing buildings that are designed for energy efficiency and renewable energy sources?
+7. Can you recommend specific sustainable materials for my project, such as reclaimed wood or recycled materials?
+8. Do you offer consultations about how to improve sustainability in existing spaces?
+9. Are your designs optimized for natural light and ventilation to minimize the need for artificial lighting and climate control?
+10. Are you able to create a design plan that incorporates green roofs or other environmental features to improve energy efficiency and reduce the urban heat island effect?
+
+Can you work on both residential and commercial projects?
+
+1. Do you specialize in any specific types of interior design projects? 
+2. Is your company equipped to handle large-scale commercial spaces? 
+3. How do you approach designing for different types of clients (residential vs commercial)? 
+4. Can you provide examples of past residential projects you have completed? 
+5. Can you work within a specific budget for a residential project? 
+6. Do you have experience working with luxury interiors for residential projects? 
+7. Can you design and decorate offices or other commercial spaces? 
+8. Can you provide references from past commercial clients? 
+9. What is your process for collaborating with other contractors or architects on a project? 
+10. How do you factor in functionality and practicality when designing for commercial spaces?
+
+How do you approach a project that requires a quick turnaround?
+
+1. How do you handle urgent interior design requirements?
+2. Can you take on interior decoration projects with tight deadlines?
+3. How can you execute an efficient and speedy project delivery?
+4. What measures do you take to prioritize and meet tight deadlines?
+5. How do you ensure that the quality of work is not compromised with a fast turnaround time?
+6. Do you have a specific process or a system to manage deadlines regarding interior design projects?
+7. How can I be sure that you can deliver my interior decoration project within a short time frame?
+8. Do you have experience working on interior designs with fast-paced requirements?
+9. Can you provide examples of successful interior decoration projects completed under tight deadlines?
+10. How do you communicate with clients to ensure timely approval and completion of a quick turnaround project?
