@@ -1,0 +1,4 @@
+# to add 
+# transformers lib
+# keras preprocessing
+# gensim==3.6.0
