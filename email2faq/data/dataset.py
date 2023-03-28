@@ -152,3 +152,45 @@ class QueryDataset(Dataset):
 
 #     def __getitem__(self, idx):
 #         return [self.embeded_pairwise_df['left'][idx], self.embeded_pairwise_df['right'][idx]]
+#%%
+
+class ClusterDataset(Dataset):
+    """
+    Assuming that the data is in the form of a list of lists
+    where each list contains a set of strings of similar sentences
+    """
+
+    def __init__(self, query_clusters):
+        self.query_clusters = query_clusters
+        self.sentences = [sen for cluster in self.query_clusters for sen in cluster]
+        self.query_para_clusters = [" ".join(cluster) for cluster in self.query_clusters]
+    
+    def __len__(self):
+        """
+        Total number of paragraphs present in the query_clusters
+        """
+        return len(self.query_para_clusters)
+    
+    def __getitem__(self, idx):
+        """
+        This is for accessing a paragraph of similar questions in a cluster
+        """
+        return self.query_para_clusters[idx]
+    
+    def sen_item(self,idx):
+        """
+        returns the idx_th sentence in the data set
+        """
+        return self.sentences[idx]
+        
+    
+    def sen_len(self):
+        """
+        Total number of sentences present in the query_clusters
+        """
+        return len(self.sentences)
+    
+    def preprocess():
+        pass
+
+    
