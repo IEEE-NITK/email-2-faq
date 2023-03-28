@@ -1,3 +1,4 @@
+#%%
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torchvision import datasets, transforms
@@ -8,7 +9,7 @@ from typing import List
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 import sentencepiece
 from data.dataset import ClusterDataset
-from data.dataloader import FGENDataLoader
+# from data.dataloader import FGENDataLoader
 
 
 # import gensim
@@ -122,27 +123,41 @@ query_clusters: List = [ ["What are the different types of laptops available?",
 
 data = ClusterDataset(query_clusters)
 print(data.query_para_clusters)
-loader = FGENDataLoader(data).dataloader
+inputs = data.preprocess()
 
 """ def genism_summarizer(loader):
     faq : List = [summarize(text, word_count = 50) for text in loader]
     print(faq)
     return faq """
 
-model = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
+#%% 
+
+# model = PegasusForConditionalGeneration.from_pretrained("google/pegasus-xsum")
+# device = "cuda" if torch.cuda.is_available() else "cpu"
+# tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-xsum")
+
+#%%
+#%%
+# tokenizer.save_pretrained("./data/utils/summ_tokenizers/")
+# #%%
+# model.save_pretrained("./models_store/fg_model/")
+#%%
+model = PegasusForConditionalGeneration.from_pretrained("./models_store/fg_model/")
 device = "cuda" if torch.cuda.is_available() else "cpu"
-tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-xsum")
+tokenizer = PegasusTokenizer.from_pretrained("./data/utils/summ_tokenizers/")
 
+#%%
 
-def summarizer(loader,device,model):
+def summarizer(device,model):
     model.to(device)
     faq : List = []
-    inputs = [tokenizer(text, max_length=1024, padding = True , truncation =True, return_tensors="pt") for text in loader]
+    # inputs = [tokenizer(text, max_length=1024, padding = True , truncation =True, return_tensors="pt") for text in loader]
     for input in inputs:
       input.to(device)
       summary_id = model.generate(input["input_ids"]).to(device)
       faq.append(tokenizer.batch_decode(summary_id, skip_special_tokens=True, clean_up_tokenization_spaces=False))
     return faq
 
-faq_clusters: List = summarizer(loader = loader,device = device , model = model)
+faq_clusters: List = summarizer(device = device , model = model)
 print(faq_clusters)
+# %%

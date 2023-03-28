@@ -5,14 +5,17 @@ from data.utils.preprocess_utils_qc import email_preprocess
 from data.utils.preprocess_utils_fgg import make_w2v_embeddings, split_and_zero_padding
 from keras_preprocessing.sequence import pad_sequences
 from transformers import AutoTokenizer
+from transformers import PegasusTokenizer
 from itertools import product
 
 #%%
 # tokenizer = AutoTokenizer.from_pretrained("shahrukhx01/question-vs-statement-classifier")
 # tokenizer.save_pretrained("./utils/tokenizers/")
-#%%
-TOKENIZER = AutoTokenizer.from_pretrained("./data/utils/tokenizers/")
 
+#%%
+# TOKENIZER = AutoTokenizer.from_pretrained("./data/utils/tokenizers/")
+# FG_TOKENIZER = PegasusTokenizer.from_pretrained("./data/utils/summ_tokenizers/")
+#%%
 class EmailsDataset(Dataset):
     """
     """
@@ -22,7 +25,7 @@ class EmailsDataset(Dataset):
         self._preprocess_emails()
 
         # transformer preprocess parameters
-        self.tokenizer = TOKENIZER
+        self.tokenizer = AutoTokenizer.from_pretrained("./data/utils/tokenizers/")
         self.max_sequence_length = 512
 
     def __len__(self):
@@ -95,6 +98,7 @@ class EmailsDataset(Dataset):
         
         ## create masks for train, val, test texts
         masks = self._create_attention_mask(ids)
+        del self.tokenizer
         return ids, masks
 
 #%%
@@ -163,7 +167,9 @@ class ClusterDataset(Dataset):
     def __init__(self, query_clusters):
         self.query_clusters = query_clusters
         self.sentences = [sen for cluster in self.query_clusters for sen in cluster]
-        self.query_para_clusters = [" ".join(cluster) for cluster in self.query_clusters]
+        self.query_para_clusters = [("? ".join(cluster) + "?") for cluster in self.query_clusters]
+
+        self.tokenizer = PegasusTokenizer.from_pretrained("./data/utils/summ_tokenizers/")
     
     def __len__(self):
         """
@@ -190,7 +196,22 @@ class ClusterDataset(Dataset):
         """
         return len(self.sentences)
     
-    def preprocess():
-        pass
+    def preprocess(self):
+        inputs = [self.tokenizer(text, max_length=1024, padding = True , truncation =True, return_tensors="pt") for text in self.query_para_clusters]
+        return inputs
 
-    
+# #%%
+# query_clusters = [ ["What are the different types of laptops available?",
+# "What are the specifications of each type of laptop?",
+# "What is the battery life of each laptop model?",
+# "What is the warranty period of the laptops?",
+# "What is the cost of each laptop model?"],
+# [
+# "What destinations are available for travel?",
+# "What is the duration of the trips?",
+# "What is the cost of the trips?",
+# "What are the payment options available?",
+# "Is there an option for installment payment?"]]
+# dataset = ClusterDataset(query_clusters)
+# inputs_t = dataset.preprocess()
+# # %%
