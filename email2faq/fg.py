@@ -15,7 +15,7 @@ def generate_faq(loader, device):
     faq = []
     for input in tqdm(loader.inputs): # batching not implemented
       input.to(device)
-      summary_id = model.generate(input["input_ids"]).to(device)
+      summary_id = model.generate(input["input_ids"], max_new_tokens=255).to(device)
       faq.append(loader.dataset.tokenizer.batch_decode(summary_id, skip_special_tokens=True, clean_up_tokenization_spaces=False))
     del loader.dataset.tokenizer
     del model
@@ -43,3 +43,5 @@ def generate_faq(loader, device):
 # faq = generate_faq(loader, device)
 
 # # %%
+
+# %%

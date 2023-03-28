@@ -52,9 +52,6 @@ def split_and_zero_padding(df, max_seq_length):
     # Zero padding
     for dataset, side in itertools.product([X], ['left', 'right']):
         dataset[side] = pad_sequences(dataset[side], padding='pre', truncating='post', maxlen=max_seq_length)
-
-    print(dataset['left'], dataset['right'])
-
     return dataset
 
 def make_w2v_embeddings(df, embedding_dim=300):

@@ -28,7 +28,6 @@ class FGGDataLoader:
         self.dataset = dataset
         self.batch_size = batch_size
         self.X = self.dataset.preprocess()
-        print(len(self.X))
         self.create_loaders()
     
     def create_loaders(self):
