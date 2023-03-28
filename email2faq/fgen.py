@@ -7,6 +7,9 @@ from data.dataloader import QCDataLoader, FGGDataLoader, FGDataLoader
 import qc
 import fgg
 import fg
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 
 def generate_faq_fgen(path: str,
@@ -18,6 +21,7 @@ def generate_faq_fgen(path: str,
     dataset = EmailsDataset(path)
     loader = QCDataLoader(dataset)
     valid_questions: pd.DataFrame = qc.get_valid_questions(loader, device)
+    logging.info('Query Classification (QC) completed!')
 
     # FGG subsystem
     fgg_dataset = QueryDataset(valid_questions)
@@ -27,6 +31,7 @@ def generate_faq_fgen(path: str,
     query_clusters: List = fgg.get_clusters(fgg_loader,
                                             similar_query_pairs,
                                             frequency=frequency)
+    logging.info('FAQ Group Generator (FGG) completed!')
 
     # FG subsystem
     fg_dataset = ClusterDataset(query_clusters)
@@ -37,6 +42,7 @@ def generate_faq_fgen(path: str,
         if 'All photographs are copyrighted.' in faq[i][0]:
             continue
         valid_faq.append(faq[i][0])
+    logging.info('FAQ Generator (FG) completed!')
 
     result = {
         "valid_queries": valid_questions['sentences'].values.tolist(),
