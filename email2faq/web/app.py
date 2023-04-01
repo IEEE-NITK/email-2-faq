@@ -48,11 +48,11 @@ def predict():
             file.save(filepath)
         
         # The predicted output from the model
-        # pred = fgen.generate_faq_fgen(filepath)
+        pred = fgen.generate_faq_fgen(filepath)
         # print(pred)
         
         # Uncomment the pred below later - sample prediction
-        pred = {"sentences": ["what are you upto", "is everything ok", "what are different types of laptops available", "what are specifications of each type of laptop"], "cluster": [['is everything ok', 'what will be good specs of the gaming laptop'], ['what are different types of laptops available', 'what is warranty period of laptops']], "valid_faq": ['what is best gaming laptop?', 'what is the best laptop to buy?']}
+        # pred = {'valid_queries': ["what are you upto", "is everything ok", "what are different types of laptops available", "what are specifications of each type of laptop"], 'query_clusters': [['is everything ok', 'what will be good specs of the gaming laptop'], ['what are different types of laptops available', 'what is warranty period of laptops']], 'valid_faq': ['what is best gaming laptop?', 'what is the best laptop to buy?']}
         
         
         return render_template('result.html', pred = pred)

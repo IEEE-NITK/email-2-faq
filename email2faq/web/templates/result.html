@@ -40,7 +40,7 @@
         <div class="response1" style="margin-right: 3em;">
           <h5>Input Sentences: </h5>
           <ol>
-            {%for i in pred["sentences"]%}
+            {%for i in pred['valid_queries']%}
             <li>{{i}}</li>
             {%endfor%}
           </ol>
@@ -49,7 +49,7 @@
         <div class="response1">
           <h5>Clusters Formed: </h5>
           <ol>
-            {%for i in pred["cluster"]%}
+            {%for i in pred['query_clusters']%}
             <li>Cluster {{loop.index}}</li>
               {%for j in i%}
               <ul>
@@ -63,7 +63,7 @@
       <div align="center" class="response2 mx-auto" style="margin: 3em 10vw;">
         <h5>FAQ's Generated: </h5>
         <ol>
-          {%for i in pred["valid_faq"]%}
+          {%for i in pred['valid_faq']%}
             <li>{{i}}</li>
           {%endfor%}
         </ol>
