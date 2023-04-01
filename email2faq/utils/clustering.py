@@ -49,7 +49,6 @@ def similar_groups(similar_query_pairs: pd.DataFrame):
     V = max(similar_query_pairs.nunique().tolist())
     pair_graph = Graph(V)
     pairs_list = similar_query_pairs[[0,1]].apply(tuple, axis=1).tolist()
-    print("clustering similar queries")
     for pairs in tqdm(pairs_list):
         pair_graph.addEdge(pairs)
     cc = pair_graph.connectedComponents()

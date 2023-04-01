@@ -6,9 +6,10 @@ from utils.similarity import ManDist
 from utils.clustering import similar_groups
 from tqdm import tqdm
 
-MODEL = tf.keras.models.load_model("./models_store/fgg_model/SiameseLSTM.h5", custom_objects={'ManDist': ManDist})
+# MODEL = tf.keras.models.load_model("./models_store/fgg_model/SiameseLSTM.h5", custom_objects={'ManDist': ManDist})
 
-def get_similarities(loader, threshold=0.4, model=MODEL):
+def get_similarities(loader, threshold=0.4):
+    model = tf.keras.models.load_model("./models_store/fgg_model/SiameseLSTM.h5", custom_objects={'ManDist': ManDist})
     # model.to(device)
     similarities_idx = []
     batch_size = loader.batch_size
@@ -23,6 +24,7 @@ def get_similarities(loader, threshold=0.4, model=MODEL):
         similarities_idx.extend((np.where(prediction.flatten() > threshold)[0] + adder).tolist())
         adder += batch_size
     similar_query_pairs = loader.dataset.pairwise_idx_df.iloc[similarities_idx]
+    del model
     return similar_query_pairs.reset_index(drop=True)
 
 # %%

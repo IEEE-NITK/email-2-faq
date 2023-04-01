@@ -28,7 +28,6 @@ class FGGDataLoader:
         self.dataset = dataset
         self.batch_size = batch_size
         self.X = self.dataset.preprocess()
-        print(len(self.X))
         self.create_loaders()
     
     def create_loaders(self):
@@ -43,3 +42,22 @@ class FGGDataLoader:
         data = TensorDataset(left, right)
         sampler = SequentialSampler(data)
         self.dataloader = DataLoader(data, sampler=sampler, batch_size=self.batch_size)
+# %%
+class FGDataLoader:
+    ''' This class is written considering that input is a 
+        list of lists where each list is contains the similar cluster of sentences '''
+
+    '''Not sure how to deal with batches here. '''
+
+    def __init__(self,dataset):
+        self.dataset = dataset
+        self.inputs = self.dataset.preprocess()
+        # self.create_loader()
+
+    def create_loader(self):
+        # TODO implement batching
+        pass
+    #    sampler = SequentialSampler(self.inputs)
+    #    self.dataloader = DataLoader(self.inputs, sampler=sampler)
+
+#%%

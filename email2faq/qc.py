@@ -7,11 +7,8 @@ from transformers import AutoModelForSequenceClassification
 # model = AutoModelForSequenceClassification.from_pretrained("shahrukhx01/question-vs-statement-classifier")
 # model.save_pretrained("./models_store/qc_model/")
 
-MODEL = AutoModelForSequenceClassification.from_pretrained(
-    "./models_store/qc_model/")
-
-
-def get_valid_questions(loader, device, model=MODEL):
+def get_valid_questions(loader, device):
+    model = AutoModelForSequenceClassification.from_pretrained("./models_store/qc_model/")
     model.to(device)
     valid_questions_idx = []
     batch_size = loader.batch_size
@@ -36,6 +33,7 @@ def get_valid_questions(loader, device, model=MODEL):
         valid_questions_idx.extend((np.where(preds == 1)[0] + adder).tolist())
         adder += batch_size
     valid_questions = loader.dataset.sentences.iloc[valid_questions_idx]
+    del model
     return valid_questions.reset_index(drop=True)
 
 
