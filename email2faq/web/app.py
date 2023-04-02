@@ -56,8 +56,8 @@ def predict():
         
         
         return render_template('result.html', pred = pred)
-    
-    
+                
+   
     return render_template('index.html')
 
 if __name__ == '__main__':
