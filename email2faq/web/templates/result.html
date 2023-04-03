@@ -24,10 +24,32 @@
       .response1 {
         margin-top: 2em;
         max-width: 30em;
+        max-height: 15em;
+        overflow-y: scroll;
       }
 
       .response2{
         max-width: 70em;
+        max-height: 15em;
+        overflow-y: scroll;
+      }
+
+      div * {
+        scrollbar-width: none; 
+      }
+
+      ::-webkit-scrollbar-track {
+          -webkit-box-shadow: none !important;
+          background-color: transparent;
+      }
+
+      ::-webkit-scrollbar {
+        width: 3px !important;
+        background-color: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: transparent;
       }
 
     </style>

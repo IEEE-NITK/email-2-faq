@@ -215,4 +215,3 @@ class ClusterDataset(Dataset):
 # dataset = ClusterDataset(query_clusters)
 # inputs_t = dataset.preprocess()
 # # %%
-
