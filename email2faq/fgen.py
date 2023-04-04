@@ -6,6 +6,7 @@ from data.dataset import EmailsDataset, QueryDataset, ClusterDataset
 from data.dataloader import QCDataLoader, FGGDataLoader, FGDataLoader
 import qc
 import fgg
+import fgg_v2
 import fg
 import logging
 
@@ -13,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 def generate_faq_fgen(path: str,
-                      threshold: float = 0.3,
+                      threshold: float = 0.35,
                       frequency: int = 1) -> Dict:
     device = torch.device("cpu")
 
@@ -23,15 +24,20 @@ def generate_faq_fgen(path: str,
     valid_questions: pd.DataFrame = qc.get_valid_questions(loader, device)
     logging.info('Query Classification (QC) completed!')
 
-    # FGG subsystem
-    fgg_dataset = QueryDataset(valid_questions)
-    fgg_loader = FGGDataLoader(fgg_dataset)
-    similar_query_pairs: pd.DataFrame = fgg.get_similarities(
-        fgg_loader, threshold=threshold)
-    query_clusters: List = fgg.get_clusters(fgg_loader,
-                                            similar_query_pairs,
-                                            frequency=frequency)
-    logging.info('FAQ Group Generator (FGG) completed!')
+    # # FGG subsystem
+    # fgg_dataset = QueryDataset(valid_questions)
+    # fgg_loader = FGGDataLoader(fgg_dataset)
+    # similar_query_pairs: pd.DataFrame = fgg.get_similarities(
+    #     fgg_loader, threshold=threshold)
+    # query_clusters: List = fgg.get_clusters(fgg_loader,
+    #                                         similar_query_pairs,
+    #                                         frequency=frequency)
+    # logging.info('FAQ Group Generator (FGG) completed!')
+
+    # FGG subsystem v2 (k-means based)
+    valid_questions_list = valid_questions['sentences'].values.tolist()
+    query_clusters: List = fgg_v2.get_clusters(valid_questions_list, frequency=frequency)
+    logging.info('FAQ Group Generator (FGG) v2 completed!')
 
     # FG subsystem
     fg_dataset = ClusterDataset(query_clusters)
