@@ -13,3 +13,14 @@ We also aim to develop this product into a deployable service that companies and
 ### How to run web app
 1. cd email2faq
 2. python web/app.py
+
+### Reference
+Shiney Jeyaraj, Raghuveera T.,
+A deep learning based end-to-end system (F-Gen) for automated email FAQ generation,
+Expert Systems with Applications,
+Volume 187,
+2022,
+115896,
+ISSN 0957-4174,
+https://doi.org/10.1016/j.eswa.2021.115896.
+(https://www.sciencedirect.com/science/article/pii/S0957417421012525)
