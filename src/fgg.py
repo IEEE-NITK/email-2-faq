@@ -44,7 +44,7 @@ def get_clusters(loader, similar_query_pairs, frequency=1):
 # from tqdm import tqdm
 # import pandas as pd
 
-# df = pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/queries_sample.csv")
+# df = pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/queries_sample.csv")
 # dataset = QueryDataset(df)
 # loader = FGGDataLoader(dataset)
 

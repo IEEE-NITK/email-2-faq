@@ -102,9 +102,9 @@ class EmailsDataset(Dataset):
         return ids, masks
 
 #%%
-# pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
+# pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/sample_email_dataset_raw.csv")
 # #%%
-# k = EmailsDataset("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
+# k = EmailsDataset("/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/sample_email_dataset_raw.csv")
 # k.__getitem__(2)
 # %%
 
@@ -140,7 +140,7 @@ class QueryDataset(Dataset):
     
     
 # #%%
-# df = pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/queries_sample.csv")
+# df = pd.read_csv("/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/queries_sample.csv")
 # dataset = QueryDataset(df)
 # dataset.preprocess()
 # # %%

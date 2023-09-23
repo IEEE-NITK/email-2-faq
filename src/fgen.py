@@ -51,11 +51,11 @@ def generate_faq_fgen(path: str,
     }
     return result
 #%%
-# generate_faq_fgen("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
+# generate_faq_fgen("/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/sample_email_dataset_raw.csv")
 #%%
 
 # #%%
-# PATH = "/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv"
+# PATH = "/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/sample_email_dataset_raw.csv"
 # THRESHOLD = 0.3
 # FREQUENCY = 1  # TO BE MORE THAN 1
 
