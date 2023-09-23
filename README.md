@@ -11,7 +11,7 @@ A few implementations use recently discovered deep learning techniques to retrie
 We also aim to develop this product into a deployable service that companies and websites can use to generate FAQs from their thousands of emails. We also aim to use techniques such as sentiment analysis to generate automated feedback management and classification.
 
 ### How to run web app
-1. cd email2faq
+1. cd src
 2. python web/app.py
 
 ### Reference
