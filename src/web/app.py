@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import pathlib
 import sys
-# sys.path.insert(1, 'D:\email2faq\email-2-faq\email2faq')
+# sys.path.insert(1, 'D:\src\email-2-faq\src')
 
 temp = pathlib.Path(__file__).parent.resolve()
 print("temp is :", temp)

@@ -40,7 +40,7 @@ def get_valid_questions(loader, device):
 # #%%
 # from data.dataset import EmailsDataset
 # from data.dataloader import QCDataLoader
-# dataset = EmailsDataset("/home/aryanab/IEEE-year-long-project/email-2-faq/email2faq/data/asset/sample_email_dataset_raw.csv")
+# dataset = EmailsDataset("/home/aryanab/IEEE-year-long-project/email-2-faq/src/data/asset/sample_email_dataset_raw.csv")
 # loader = QCDataLoader(dataset)
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # valid_questions = get_valid_questions(loader, device)
